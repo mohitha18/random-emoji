@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(240, 166, 102);
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.btn{
+    background: rgba(255,255,255,.3);
+    padding: 20px;
+    
+    font-weight: 600;
+    font-size: 5rem;
+    border: none;
+    border-radius: 10px;
+    filter: grayscale();
+    transition: filter .2s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    filter: grayscale(0);
+}
+.emoji-img{
+    display: none;
+}
+.emoji-name{
+    color: blueviolet;
+    font-weight: 700;
+    
+}
+.header{
+    color: aliceblue;
+    font-size: 2rem;
+}
